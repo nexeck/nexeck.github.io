@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Marcel Beck</title>
-    <link>https://marcel.beck.im/</link>
-    <description>Recent content on Marcel Beck</description>
+    <title>Manual on Marcel Beck</title>
+    <link>https://marcel.beck.im/categories/manual/</link>
+    <description>Recent content in Manual on Marcel Beck</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 23 Dec 2018 02:16:18 +0100</lastBuildDate>
     
-	<atom:link href="https://marcel.beck.im/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marcel.beck.im/categories/manual/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,15 +21,6 @@
 Download macOS Installer https://itunes.apple.com/de/app/macos-mojave/id1398502828?l=en&amp;amp;mt=12
 Prepare USB Device Detect USB Device $ diskutil list  Format USB Device $ diskutil eraseDisk HFS+ &#39;macosinstaller&#39; disk&amp;lt;number&amp;gt;  Create Installation Media $ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/macosinstaller  Boot Into Installer Turn on MacBook with USB drive plugged in
  As soon as you press the power button, hold down the left &amp;ldquo;Option Key&amp;rdquo; until you see the boot selection screen</description>
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      <link>https://marcel.beck.im/posts/first-post/</link>
-      <pubDate>Sun, 23 Dec 2018 00:38:45 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/first-post/</guid>
-      <description>Welcome :-)</description>
     </item>
     
   </channel>
