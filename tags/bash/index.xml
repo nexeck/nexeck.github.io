@@ -1,46 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Marcel Beck</title>
-    <link>https://marcel.beck.im/</link>
-    <description>Recent content on Marcel Beck</description>
+    <title>Bash on Marcel Beck</title>
+    <link>https://marcel.beck.im/tags/bash/</link>
+    <description>Recent content in Bash on Marcel Beck</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 03 Jan 2019 21:50:55 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 28 Feb 2013 10:32:00 +0100</lastBuildDate>
     
-	<atom:link href="https://marcel.beck.im/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marcel.beck.im/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>MacBook Setup dotfiles</title>
-      <link>https://marcel.beck.im/posts/macbook-setup-dotfiles/</link>
-      <pubDate>Thu, 03 Jan 2019 21:50:55 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/macbook-setup-dotfiles/</guid>
-      <description> Setup dotfiles Requirements  Fresh macOS Mojave  Install dotfiles repository curl --silent https://raw.githubusercontent.com/nexeck/dotfiles/master/install.sh | sh Reboot </description>
-    </item>
-    
-    <item>
-      <title>MacBook Fresh Installation</title>
-      <link>https://marcel.beck.im/posts/macbook-fresh-installation/</link>
-      <pubDate>Sun, 23 Dec 2018 02:16:18 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/macbook-fresh-installation/</guid>
-      <description>Fresh Install macOS Mojave Requirements  USB Device at least 8GB macOS Installer
-Download macOS Installer https://itunes.apple.com/de/app/macos-mojave/id1398502828?l=en&amp;amp;mt=12
-Prepare USB Device Detect USB Device $ diskutil list Format USB Device $ diskutil eraseDisk HFS+ &amp;#39;macosinstaller&amp;#39; disk&amp;lt;number&amp;gt; Create Installation Media $ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/macosinstaller Boot Into Installer Turn on MacBook with USB drive plugged in
- As soon as you press the power button, hold down the left &amp;ldquo;Option Key&amp;rdquo; until you see the boot selection screen</description>
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      <link>https://marcel.beck.im/posts/first-post/</link>
-      <pubDate>Sun, 23 Dec 2018 00:38:45 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/first-post/</guid>
-      <description>Welcome :-)</description>
-    </item>
     
     <item>
       <title>Bash: [: =: unary operator expected</title>
@@ -112,6 +82,17 @@ pkill -f &amp;#34;such string.</description>
       <description>This prevents the error, which occurs when the directory already exists.
 The -p parameter creates directory structues as well.
 mkdir -p directory/sub_directory/sub_sub_directory</description>
+    </item>
+    
+    <item>
+      <title>Bash: /bin/bash^M: bad interpreter: no such file or directory</title>
+      <link>https://marcel.beck.im/posts/bash-bad-interpreter/</link>
+      <pubDate>Tue, 13 Sep 2011 18:38:55 +0100</pubDate>
+      
+      <guid>https://marcel.beck.im/posts/bash-bad-interpreter/</guid>
+      <description>This happens when the bash script has windows line feed and carriage return.
+This can be fixed with a oneliner:
+sed &amp;#39;s/\r//&amp;#39; filename &amp;gt; filename.tmp &amp;amp;&amp;amp; mv filename.tmp filename</description>
     </item>
     
   </channel>
