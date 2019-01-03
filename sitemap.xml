@@ -3,8 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://marcel.beck.im/posts/macbook-fresh-install-part-1/</loc>
-    <lastmod>2019-01-03T22:10:01+01:00</lastmod>
+    <loc>https://marcel.beck.im/posts/macbook-setup-dotfiles/</loc>
+    <lastmod>2019-01-03T22:27:15+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marcel.beck.im/posts/macbook-fresh-installation/</loc>
+    <lastmod>2019-01-03T22:27:15+01:00</lastmod>
   </url>
   
   <url>
@@ -19,43 +24,43 @@
   
   <url>
     <loc>https://marcel.beck.im/tags/macbook/</loc>
-    <lastmod>2019-01-03T22:10:01+01:00</lastmod>
+    <lastmod>2019-01-03T22:27:15+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/tags/macos/</loc>
-    <lastmod>2019-01-03T22:10:01+01:00</lastmod>
+    <lastmod>2019-01-03T22:27:15+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/categories/manual/</loc>
-    <lastmod>2019-01-03T22:10:01+01:00</lastmod>
+    <lastmod>2019-01-03T22:27:15+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/</loc>
-    <lastmod>2019-01-03T22:10:01+01:00</lastmod>
+    <lastmod>2019-01-03T22:27:15+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/tags/mojave/</loc>
-    <lastmod>2019-01-03T22:10:01+01:00</lastmod>
+    <lastmod>2019-01-03T22:27:15+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/posts/</loc>
-    <lastmod>2019-01-03T22:10:01+01:00</lastmod>
+    <lastmod>2019-01-03T22:27:15+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/tags/</loc>
-    <lastmod>2019-01-03T22:10:01+01:00</lastmod>
+    <lastmod>2019-01-03T22:27:15+01:00</lastmod>
     <priority>0</priority>
   </url>
   

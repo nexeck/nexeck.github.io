@@ -7,17 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 23 Dec 2018 02:16:18 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jan 2019 21:50:55 +0100</lastBuildDate>
     
 	<atom:link href="https://marcel.beck.im/tags/macbook/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>MacBook Fresh Install - Part 1/? - Installation</title>
-      <link>https://marcel.beck.im/posts/macbook-fresh-install-part-1/</link>
+      <title>MacBook Setup dotfiles</title>
+      <link>https://marcel.beck.im/posts/macbook-setup-dotfiles/</link>
+      <pubDate>Thu, 03 Jan 2019 21:50:55 +0100</pubDate>
+      
+      <guid>https://marcel.beck.im/posts/macbook-setup-dotfiles/</guid>
+      <description> Setup dotfiles Requirements  Fresh macOS Mojave  Install dotfiles repository curl --silent https://raw.githubusercontent.com/nexeck/dotfiles/master/install.sh | sh Reboot </description>
+    </item>
+    
+    <item>
+      <title>MacBook Fresh Installation</title>
+      <link>https://marcel.beck.im/posts/macbook-fresh-installation/</link>
       <pubDate>Sun, 23 Dec 2018 02:16:18 +0100</pubDate>
       
-      <guid>https://marcel.beck.im/posts/macbook-fresh-install-part-1/</guid>
+      <guid>https://marcel.beck.im/posts/macbook-fresh-installation/</guid>
       <description>Fresh Install macOS Mojave Requirements  USB Device at least 8GB macOS Installer
 Download macOS Installer https://itunes.apple.com/de/app/macos-mojave/id1398502828?l=en&amp;amp;mt=12
 Prepare USB Device Detect USB Device $ diskutil list Format USB Device $ diskutil eraseDisk HFS+ &amp;#39;macosinstaller&amp;#39; disk&amp;lt;number&amp;gt; Create Installation Media $ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/macosinstaller Boot Into Installer Turn on MacBook with USB drive plugged in
