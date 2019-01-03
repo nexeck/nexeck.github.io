@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Marcel Beck</title>
-    <link>https://haus.beck.im/tags/</link>
+    <link>https://marcel.beck.im/tags/</link>
     <description>Recent content in Tags on Marcel Beck</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sun, 23 Dec 2018 02:16:18 +0100</lastBuildDate>
     
-	<atom:link href="https://haus.beck.im/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marcel.beck.im/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Macbook</title>
-      <link>https://haus.beck.im/tags/macbook/</link>
+      <link>https://marcel.beck.im/tags/macbook/</link>
       <pubDate>Sun, 23 Dec 2018 02:16:18 +0100</pubDate>
       
-      <guid>https://haus.beck.im/tags/macbook/</guid>
+      <guid>https://marcel.beck.im/tags/macbook/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Macos</title>
-      <link>https://haus.beck.im/tags/macos/</link>
+      <link>https://marcel.beck.im/tags/macos/</link>
       <pubDate>Sun, 23 Dec 2018 02:16:18 +0100</pubDate>
       
-      <guid>https://haus.beck.im/tags/macos/</guid>
+      <guid>https://marcel.beck.im/tags/macos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mojave</title>
-      <link>https://haus.beck.im/tags/mojave/</link>
+      <link>https://marcel.beck.im/tags/mojave/</link>
       <pubDate>Sun, 23 Dec 2018 02:16:18 +0100</pubDate>
       
-      <guid>https://haus.beck.im/tags/mojave/</guid>
+      <guid>https://marcel.beck.im/tags/mojave/</guid>
       <description></description>
     </item>
     
