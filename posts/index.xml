@@ -82,17 +82,6 @@ Prepare USB Device Detect USB Device $ diskutil list Format USB Device $ diskuti
 		</item>
 		
 		<item>
-			<title>First Post</title>
-			<link>https://marcel.beck.im/posts/first-post/</link>
-			<pubDate>Sun, 23 Dec 2018 00:38:45 +0100</pubDate>
-			
-			<guid>https://marcel.beck.im/posts/first-post/</guid>
-			<description>Welcome :-)</description>
-			<content type="html"><![CDATA[<p>Welcome :-)</p>
-]]></content>
-		</item>
-		
-		<item>
 			<title>Bash: [: =: unary operator expected</title>
 			<link>https://marcel.beck.im/posts/bash-unary-operator-expected/</link>
 			<pubDate>Thu, 28 Feb 2013 10:32:00 +0100</pubDate>
@@ -194,6 +183,21 @@ mkdir -p directory/sub_directory/sub_sub_directory</description>
 
 <p>The <code>-p</code> parameter creates directory structues as well.</p>
 <div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">mkdir -p directory/sub_directory/sub_sub_directory</code></pre></div>]]></content>
+		</item>
+		
+		<item>
+			<title>Bash: /bin/bash^M: bad interpreter: no such file or directory</title>
+			<link>https://marcel.beck.im/posts/bash-bad-interpreter/</link>
+			<pubDate>Tue, 13 Sep 2011 18:38:55 +0100</pubDate>
+			
+			<guid>https://marcel.beck.im/posts/bash-bad-interpreter/</guid>
+			<description>This happens when the bash script has windows line feed and carriage return.
+This can be fixed with a oneliner:
+sed &amp;#39;s/\r//&amp;#39; filename &amp;gt; filename.tmp &amp;amp;&amp;amp; mv filename.tmp filename</description>
+			<content type="html"><![CDATA[<p>This happens when the bash script has windows <code>line feed</code> and <code>carriage return</code>.</p>
+
+<p>This can be fixed with a oneliner:</p>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">sed <span class="s1">&#39;s/\r//&#39;</span> filename &gt; filename.tmp <span class="o">&amp;&amp;</span> mv filename.tmp filename</code></pre></div>]]></content>
 		</item>
 		
 	</channel>

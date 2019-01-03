@@ -34,15 +34,6 @@ Prepare USB Device Detect USB Device $ diskutil list Format USB Device $ diskuti
     </item>
     
     <item>
-      <title>First Post</title>
-      <link>https://marcel.beck.im/posts/first-post/</link>
-      <pubDate>Sun, 23 Dec 2018 00:38:45 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/first-post/</guid>
-      <description>Welcome :-)</description>
-    </item>
-    
-    <item>
       <title>Bash: [: =: unary operator expected</title>
       <link>https://marcel.beck.im/posts/bash-unary-operator-expected/</link>
       <pubDate>Thu, 28 Feb 2013 10:32:00 +0100</pubDate>
@@ -112,6 +103,17 @@ pkill -f &amp;#34;such string.</description>
       <description>This prevents the error, which occurs when the directory already exists.
 The -p parameter creates directory structues as well.
 mkdir -p directory/sub_directory/sub_sub_directory</description>
+    </item>
+    
+    <item>
+      <title>Bash: /bin/bash^M: bad interpreter: no such file or directory</title>
+      <link>https://marcel.beck.im/posts/bash-bad-interpreter/</link>
+      <pubDate>Tue, 13 Sep 2011 18:38:55 +0100</pubDate>
+      
+      <guid>https://marcel.beck.im/posts/bash-bad-interpreter/</guid>
+      <description>This happens when the bash script has windows line feed and carriage return.
+This can be fixed with a oneliner:
+sed &amp;#39;s/\r//&amp;#39; filename &amp;gt; filename.tmp &amp;amp;&amp;amp; mv filename.tmp filename</description>
     </item>
     
   </channel>
