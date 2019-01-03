@@ -1,36 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Marcel Beck</title>
-    <link>https://marcel.beck.im/posts/</link>
-    <description>Recent content in Posts on Marcel Beck</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 23 Dec 2018 02:16:18 +0100</lastBuildDate>
-    
-	<atom:link href="https://marcel.beck.im/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>MacBook Fresh Install - Part 1/?</title>
-      <link>https://marcel.beck.im/posts/macbook-fresh-install-part-1/</link>
-      <pubDate>Sun, 23 Dec 2018 02:16:18 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/macbook-fresh-install-part-1/</guid>
-      <description>Fresh Install macOS Mojave Requirements  USB Device at least 8GB macOS Installer
+	<channel>
+		<title>Posts on Marcel Beck</title>
+		<link>https://haus.beck.im/posts/</link>
+		<description>Recent content in Posts on Marcel Beck</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+		<lastBuildDate>Sun, 23 Dec 2018 02:16:18 +0100</lastBuildDate>
+		<atom:link href="https://haus.beck.im/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>MacBook Fresh Install - Part 1/? - Installation</title>
+			<link>https://haus.beck.im/posts/macbook-fresh-install-part-1/</link>
+			<pubDate>Sun, 23 Dec 2018 02:16:18 +0100</pubDate>
+			
+			<guid>https://haus.beck.im/posts/macbook-fresh-install-part-1/</guid>
+			<description>Fresh Install macOS Mojave Requirements  USB Device at least 8GB macOS Installer
 Download macOS Installer https://itunes.apple.com/de/app/macos-mojave/id1398502828?l=en&amp;amp;mt=12
-Prepare USB Device Detect USB Device $ diskutil list  Format USB Device $ diskutil eraseDisk HFS+ &#39;macosinstaller&#39; disk&amp;lt;number&amp;gt;  Create Installation Media $ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/macosinstaller  Boot Into Installer Turn on MacBook with USB drive plugged in
+Prepare USB Device Detect USB Device $ diskutil list Format USB Device $ diskutil eraseDisk HFS+ &amp;#39;macosinstaller&amp;#39; disk&amp;lt;number&amp;gt; Create Installation Media $ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/macosinstaller Boot Into Installer Turn on MacBook with USB drive plugged in
  As soon as you press the power button, hold down the left &amp;ldquo;Option Key&amp;rdquo; until you see the boot selection screen</description>
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      <link>https://marcel.beck.im/posts/first-post/</link>
-      <pubDate>Sun, 23 Dec 2018 00:38:45 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/first-post/</guid>
-      <description>Welcome :-)</description>
-    </item>
-    
-  </channel>
+			<content type="html"><![CDATA[
+
+<h1 id="fresh-install-macos-mojave">Fresh Install macOS Mojave</h1>
+
+<h2 id="requirements">Requirements</h2>
+
+<ul>
+<li>USB Device at least 8GB</li>
+
+<li><p>macOS Installer</p>
+
+<h3 id="download-macos-installer">Download macOS Installer</h3>
+
+<p><a href="https://itunes.apple.com/de/app/macos-mojave/id1398502828?l=en&amp;mt=12" target="_blank">https://itunes.apple.com/de/app/macos-mojave/id1398502828?l=en&amp;mt=12</a></p>
+
+<h2 id="prepare-usb-device">Prepare USB Device</h2>
+
+<h3 id="detect-usb-device">Detect USB Device</h3>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">$ diskutil list</code></pre></div>
+<h3 id="format-usb-device">Format USB Device</h3>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">$ diskutil eraseDisk HFS+ <span class="s1">&#39;macosinstaller&#39;</span> disk&lt;number&gt;</code></pre></div>
+<h2 id="create-installation-media">Create Installation Media</h2>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">$ sudo /Applications/Install<span class="se">\ </span>macOS<span class="se">\ </span>Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/macosinstaller</code></pre></div>
+<h2 id="boot-into-installer">Boot Into Installer</h2></li>
+
+<li><p>Turn on MacBook with USB drive plugged in</p></li>
+
+<li><p>As soon as you press the power button, hold down the left &ldquo;Option Key&rdquo; until you see the boot selection screen</p></li>
+
+<li><p>Choose USB Installer</p></li>
+
+<li><p>First erase the existing disk with the &ldquo;Disk Utility&rdquo;</p></li>
+
+<li><p>Click &ldquo;Install macOS&rdquo; and follow the on-screen instructions</p></li>
+</ul>
+]]></content>
+		</item>
+		
+		<item>
+			<title>First Post</title>
+			<link>https://haus.beck.im/posts/first-post/</link>
+			<pubDate>Sun, 23 Dec 2018 00:38:45 +0100</pubDate>
+			
+			<guid>https://haus.beck.im/posts/first-post/</guid>
+			<description>Welcome :-)</description>
+			<content type="html"><![CDATA[<p>Welcome :-)</p>
+]]></content>
+		</item>
+		
+	</channel>
 </rss>
