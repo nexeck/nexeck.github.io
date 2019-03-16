@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 03 Jan 2019 21:50:55 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 16 Mar 2019 17:15:04 +0100</lastBuildDate>
     
 	<atom:link href="https://marcel.beck.im/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Steam on Case-Sesitiv Filesystem with MacOS</title>
+      <link>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</link>
+      <pubDate>Sat, 16 Mar 2019 17:15:04 +0100</pubDate>
+      
+      <guid>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</guid>
+      <description> Preperation Open macOS Disk Utility Create a new case-insentive container After creating the new container Steam  Install Steam  brew cask install steam  Move Application Support Directory  # Create directory mkdir -p /Volumes/Case-Insensitive/Application\ Support/Steam # Copy existing files to new directory test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; cp -pR ~/Library/Application\ Support/Steam /Volumes/Case-Insensitive/Application\ Support/Steam # Delete existing files test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; rm -rf ~/Library/Application\ Support/Steam  Symlink Steam Application Support Directory  ln -s /Volumes/Case-Insensitive/Application\ Support/Steam ~/Library/Application\ Support/Steam</description>
+    </item>
     
     <item>
       <title>MacBook Setup dotfiles</title>
@@ -103,17 +112,6 @@ pkill -f &amp;#34;such string.</description>
       <description>This prevents the error, which occurs when the directory already exists.
 The -p parameter creates directory structues as well.
 mkdir -p directory/sub_directory/sub_sub_directory</description>
-    </item>
-    
-    <item>
-      <title>Bash: /bin/bash^M: bad interpreter: no such file or directory</title>
-      <link>https://marcel.beck.im/posts/bash-bad-interpreter/</link>
-      <pubDate>Tue, 13 Sep 2011 18:38:55 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/bash-bad-interpreter/</guid>
-      <description>This happens when the bash script has windows line feed and carriage return.
-This can be fixed with a oneliner:
-sed &amp;#39;s/\r//&amp;#39; filename &amp;gt; filename.tmp &amp;amp;&amp;amp; mv filename.tmp filename</description>
     </item>
     
   </channel>

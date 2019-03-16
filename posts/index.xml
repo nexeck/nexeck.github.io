@@ -7,8 +7,52 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Thu, 03 Jan 2019 21:50:55 +0100</lastBuildDate>
+		<lastBuildDate>Sat, 16 Mar 2019 17:15:04 +0100</lastBuildDate>
 		<atom:link href="https://marcel.beck.im/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Steam on Case-Sesitiv Filesystem with MacOS</title>
+			<link>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</link>
+			<pubDate>Sat, 16 Mar 2019 17:15:04 +0100</pubDate>
+			
+			<guid>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</guid>
+			<description> Preperation Open macOS Disk Utility Create a new case-insentive container After creating the new container Steam  Install Steam  brew cask install steam  Move Application Support Directory  # Create directory mkdir -p /Volumes/Case-Insensitive/Application\ Support/Steam # Copy existing files to new directory test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; cp -pR ~/Library/Application\ Support/Steam /Volumes/Case-Insensitive/Application\ Support/Steam # Delete existing files test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; rm -rf ~/Library/Application\ Support/Steam  Symlink Steam Application Support Directory  ln -s /Volumes/Case-Insensitive/Application\ Support/Steam ~/Library/Application\ Support/Steam</description>
+			<content type="html"><![CDATA[
+
+<h1 id="preperation">Preperation</h1>
+
+<h2 id="open-macos-disk-utility">Open macOS Disk Utility</h2>
+
+<p><img src="/posts/macbook-steam-case-sensitiv-filesystem-001.png" alt="Disk Utility- Before" /></p>
+
+<h2 id="create-a-new-case-insentive-container">Create a new case-insentive container</h2>
+
+<p><img src="/posts/macbook-steam-case-sensitiv-filesystem-002.png" alt="Disk Utility - Create Container" /></p>
+
+<h2 id="after-creating-the-new-container">After creating the new container</h2>
+
+<p><img src="/posts/macbook-steam-case-sensitiv-filesystem-003.png" alt="Disk Utility - After" /></p>
+
+<h1 id="steam">Steam</h1>
+
+<ol>
+<li>Install Steam</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">brew cask install steam</code></pre></div>
+<ol>
+<li>Move Application Support Directory</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh"><span class="c1"># Create directory</span>
+mkdir -p /Volumes/Case-Insensitive/Application<span class="se">\ </span>Support/Steam
+<span class="c1"># Copy existing files to new directory</span>
+<span class="nb">test</span> -d ~/Library/Application<span class="se">\ </span>Support/Steam <span class="o">&amp;&amp;</span> cp -pR ~/Library/Application<span class="se">\ </span>Support/Steam /Volumes/Case-Insensitive/Application<span class="se">\ </span>Support/Steam
+<span class="c1"># Delete existing files</span>
+<span class="nb">test</span> -d ~/Library/Application<span class="se">\ </span>Support/Steam <span class="o">&amp;&amp;</span> rm -rf ~/Library/Application<span class="se">\ </span>Support/Steam</code></pre></div>
+<ol>
+<li>Symlink Steam Application Support Directory</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">ln -s /Volumes/Case-Insensitive/Application<span class="se">\ </span>Support/Steam ~/Library/Application<span class="se">\ </span>Support/Steam</code></pre></div>]]></content>
+		</item>
 		
 		<item>
 			<title>MacBook Setup dotfiles</title>
@@ -183,21 +227,6 @@ mkdir -p directory/sub_directory/sub_sub_directory</description>
 
 <p>The <code>-p</code> parameter creates directory structues as well.</p>
 <div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">mkdir -p directory/sub_directory/sub_sub_directory</code></pre></div>]]></content>
-		</item>
-		
-		<item>
-			<title>Bash: /bin/bash^M: bad interpreter: no such file or directory</title>
-			<link>https://marcel.beck.im/posts/bash-bad-interpreter/</link>
-			<pubDate>Tue, 13 Sep 2011 18:38:55 +0100</pubDate>
-			
-			<guid>https://marcel.beck.im/posts/bash-bad-interpreter/</guid>
-			<description>This happens when the bash script has windows line feed and carriage return.
-This can be fixed with a oneliner:
-sed &amp;#39;s/\r//&amp;#39; filename &amp;gt; filename.tmp &amp;amp;&amp;amp; mv filename.tmp filename</description>
-			<content type="html"><![CDATA[<p>This happens when the bash script has windows <code>line feed</code> and <code>carriage return</code>.</p>
-
-<p>This can be fixed with a oneliner:</p>
-<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">sed <span class="s1">&#39;s/\r//&#39;</span> filename &gt; filename.tmp <span class="o">&amp;&amp;</span> mv filename.tmp filename</code></pre></div>]]></content>
 		</item>
 		
 	</channel>

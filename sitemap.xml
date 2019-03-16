@@ -3,58 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</loc>
+    <lastmod>2019-03-16T17:52:03+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://marcel.beck.im/posts/macbook-setup-dotfiles/</loc>
-    <lastmod>2019-01-03T22:27:15+01:00</lastmod>
+    <lastmod>2019-03-16T17:52:03+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/posts/macbook-fresh-installation/</loc>
-    <lastmod>2019-01-03T22:27:15+01:00</lastmod>
+    <lastmod>2019-03-16T17:52:03+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/posts/bash-unary-operator-expected/</loc>
-    <lastmod>2019-01-03T22:51:05+01:00</lastmod>
+    <lastmod>2019-03-16T17:52:03+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/posts/bash-change-eol/</loc>
-    <lastmod>2019-01-03T22:51:05+01:00</lastmod>
+    <lastmod>2019-03-16T17:52:03+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/posts/bash-for-earch-directory/</loc>
-    <lastmod>2019-01-03T22:51:05+01:00</lastmod>
+    <lastmod>2019-03-16T17:52:03+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/posts/bash-loop-through-directories-and-sub-directoires/</loc>
-    <lastmod>2019-01-03T22:51:05+01:00</lastmod>
+    <lastmod>2019-03-16T17:52:03+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/posts/bash-delete-all-but-the-most-recent-x-files/</loc>
-    <lastmod>2019-01-03T22:51:05+01:00</lastmod>
+    <lastmod>2019-03-16T17:52:03+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/posts/bash-kill-a-process-ala-grep/</loc>
-    <lastmod>2019-01-03T22:51:05+01:00</lastmod>
+    <lastmod>2019-03-16T17:52:03+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/posts/bash-mkdir-skip-existing-directories/</loc>
-    <lastmod>2019-01-03T22:51:05+01:00</lastmod>
+    <lastmod>2019-03-16T17:52:03+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/posts/bash-bad-interpreter/</loc>
-    <lastmod>2019-01-03T22:51:05+01:00</lastmod>
+    <lastmod>2019-03-16T17:52:03+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/tags/bash/</loc>
-    <lastmod>2019-01-03T22:51:05+01:00</lastmod>
+    <lastmod>2019-03-16T17:52:03+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -65,43 +70,43 @@
   
   <url>
     <loc>https://marcel.beck.im/tags/macbook/</loc>
-    <lastmod>2019-01-03T22:27:15+01:00</lastmod>
+    <lastmod>2019-03-16T17:52:03+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/tags/macos/</loc>
-    <lastmod>2019-01-03T22:27:15+01:00</lastmod>
+    <lastmod>2019-03-16T17:52:03+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/categories/manual/</loc>
-    <lastmod>2019-01-03T22:27:15+01:00</lastmod>
+    <lastmod>2019-03-16T17:52:03+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/</loc>
-    <lastmod>2019-01-03T22:27:15+01:00</lastmod>
+    <lastmod>2019-03-16T17:52:03+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/tags/mojave/</loc>
-    <lastmod>2019-01-03T22:27:15+01:00</lastmod>
+    <lastmod>2019-03-16T17:52:03+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/posts/</loc>
-    <lastmod>2019-01-03T22:27:15+01:00</lastmod>
+    <lastmod>2019-03-16T17:52:03+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://marcel.beck.im/tags/</loc>
-    <lastmod>2019-01-03T22:51:05+01:00</lastmod>
+    <lastmod>2019-03-16T17:52:03+01:00</lastmod>
     <priority>0</priority>
   </url>
   

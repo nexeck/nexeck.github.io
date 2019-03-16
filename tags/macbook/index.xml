@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 03 Jan 2019 21:50:55 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 16 Mar 2019 17:15:04 +0100</lastBuildDate>
     
 	<atom:link href="https://marcel.beck.im/tags/macbook/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Steam on Case-Sesitiv Filesystem with MacOS</title>
+      <link>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</link>
+      <pubDate>Sat, 16 Mar 2019 17:15:04 +0100</pubDate>
+      
+      <guid>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</guid>
+      <description> Preperation Open macOS Disk Utility Create a new case-insentive container After creating the new container Steam  Install Steam  brew cask install steam  Move Application Support Directory  # Create directory mkdir -p /Volumes/Case-Insensitive/Application\ Support/Steam # Copy existing files to new directory test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; cp -pR ~/Library/Application\ Support/Steam /Volumes/Case-Insensitive/Application\ Support/Steam # Delete existing files test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; rm -rf ~/Library/Application\ Support/Steam  Symlink Steam Application Support Directory  ln -s /Volumes/Case-Insensitive/Application\ Support/Steam ~/Library/Application\ Support/Steam</description>
+    </item>
     
     <item>
       <title>MacBook Setup dotfiles</title>
