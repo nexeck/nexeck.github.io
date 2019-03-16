@@ -1,46 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Macbook on Marcel Beck</title>
-    <link>https://marcel.beck.im/tags/macbook/</link>
-    <description>Recent content in Macbook on Marcel Beck</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 16 Mar 2019 17:15:04 +0100</lastBuildDate>
-    
-	<atom:link href="https://marcel.beck.im/tags/macbook/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Steam on Case-Sesitiv Filesystem with MacOS</title>
-      <link>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</link>
-      <pubDate>Sat, 16 Mar 2019 17:15:04 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</guid>
-      <description> Preperation Open macOS Disk Utility Create a new case-insentive container After creating the new container Steam  Install Steam  brew cask install steam  Move Application Support Directory  # Create directory mkdir -p /Volumes/Case-Insensitive/Application\ Support/Steam # Copy existing files to new directory test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; cp -pR ~/Library/Application\ Support/Steam /Volumes/Case-Insensitive/Application\ Support/Steam # Delete existing files test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; rm -rf ~/Library/Application\ Support/Steam  Symlink Steam Application Support Directory  ln -s /Volumes/Case-Insensitive/Application\ Support/Steam ~/Library/Application\ Support/Steam</description>
-    </item>
-    
-    <item>
-      <title>MacBook Setup dotfiles</title>
-      <link>https://marcel.beck.im/posts/macbook-setup-dotfiles/</link>
-      <pubDate>Thu, 03 Jan 2019 21:50:55 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/macbook-setup-dotfiles/</guid>
-      <description> Setup dotfiles Requirements  Fresh macOS Mojave  Install dotfiles repository curl --silent https://raw.githubusercontent.com/nexeck/dotfiles/master/install.sh | sh Reboot </description>
-    </item>
-    
-    <item>
-      <title>MacBook Fresh Installation</title>
-      <link>https://marcel.beck.im/posts/macbook-fresh-installation/</link>
-      <pubDate>Sun, 23 Dec 2018 02:16:18 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/macbook-fresh-installation/</guid>
-      <description>Fresh Install macOS Mojave Requirements  USB Device at least 8GB macOS Installer
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Macbook on Marcel Beck</title><link>https://marcel.beck.im/tags/macbook/</link><description>Recent content in Macbook on Marcel Beck</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 16 Mar 2019 17:15:04 +0100</lastBuildDate><atom:link href="https://marcel.beck.im/tags/macbook/index.xml" rel="self" type="application/rss+xml"/><item><title>Steam on Case-Sesitiv Filesystem with MacOS</title><link>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</link><pubDate>Sat, 16 Mar 2019 17:15:04 +0100</pubDate><guid>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</guid><description> Preperation Open macOS Disk Utility Create a new case-insentive container After creating the new container Steam Install Steam brew cask install steam Move Application Support Directory # Create directory mkdir -p /Volumes/Case-Insensitive/Application\ Support/Steam # Copy existing files to new directory test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; cp -pR ~/Library/Application\ Support/Steam /Volumes/Case-Insensitive/Application\ Support/Steam # Delete existing files test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; rm -rf ~/Library/Application\ Support/Steam Symlink Steam Application Support Directory ln -s /Volumes/Case-Insensitive/Application\ Support/Steam ~/Library/Application\ Support/Steam</description></item><item><title>MacBook Setup dotfiles</title><link>https://marcel.beck.im/posts/macbook-setup-dotfiles/</link><pubDate>Thu, 03 Jan 2019 21:50:55 +0100</pubDate><guid>https://marcel.beck.im/posts/macbook-setup-dotfiles/</guid><description> Setup dotfiles Requirements Fresh macOS Mojave Install dotfiles repository curl --silent https://raw.githubusercontent.com/nexeck/dotfiles/master/install.sh | sh Reboot</description></item><item><title>MacBook Fresh Installation</title><link>https://marcel.beck.im/posts/macbook-fresh-installation/</link><pubDate>Sun, 23 Dec 2018 02:16:18 +0100</pubDate><guid>https://marcel.beck.im/posts/macbook-fresh-installation/</guid><description>Fresh Install macOS Mojave Requirements USB Device at least 8GB macOS Installer
 Download macOS Installer https://itunes.apple.com/de/app/macos-mojave/id1398502828?l=en&amp;amp;mt=12
 Prepare USB Device Detect USB Device $ diskutil list Format USB Device $ diskutil eraseDisk HFS+ &amp;#39;macosinstaller&amp;#39; disk&amp;lt;number&amp;gt; Create Installation Media $ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/macosinstaller Boot Into Installer Turn on MacBook with USB drive plugged in
- As soon as you press the power button, hold down the left &amp;ldquo;Option Key&amp;rdquo; until you see the boot selection screen</description>
-    </item>
-    
-  </channel>
-</rss>
+As soon as you press the power button, hold down the left &amp;ldquo;Option Key&amp;rdquo; until you see the boot selection screen</description></item></channel></rss>

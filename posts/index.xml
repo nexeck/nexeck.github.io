@@ -1,23 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Posts on Marcel Beck</title>
-		<link>https://marcel.beck.im/posts/</link>
-		<description>Recent content in Posts on Marcel Beck</description>
-		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
-		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Sat, 16 Mar 2019 17:15:04 +0100</lastBuildDate>
-		<atom:link href="https://marcel.beck.im/posts/index.xml" rel="self" type="application/rss+xml" />
-		
-		<item>
-			<title>Steam on Case-Sesitiv Filesystem with MacOS</title>
-			<link>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</link>
-			<pubDate>Sat, 16 Mar 2019 17:15:04 +0100</pubDate>
-			
-			<guid>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</guid>
-			<description> Preperation Open macOS Disk Utility Create a new case-insentive container After creating the new container Steam  Install Steam  brew cask install steam  Move Application Support Directory  # Create directory mkdir -p /Volumes/Case-Insensitive/Application\ Support/Steam # Copy existing files to new directory test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; cp -pR ~/Library/Application\ Support/Steam /Volumes/Case-Insensitive/Application\ Support/Steam # Delete existing files test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; rm -rf ~/Library/Application\ Support/Steam  Symlink Steam Application Support Directory  ln -s /Volumes/Case-Insensitive/Application\ Support/Steam ~/Library/Application\ Support/Steam</description>
-			<content type="html"><![CDATA[
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Marcel Beck</title><link>https://marcel.beck.im/posts/</link><description>Recent content in Posts on Marcel Beck</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 16 Mar 2019 17:15:04 +0100</lastBuildDate><atom:link href="https://marcel.beck.im/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Steam on Case-Sesitiv Filesystem with MacOS</title><link>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</link><pubDate>Sat, 16 Mar 2019 17:15:04 +0100</pubDate><guid>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</guid><description> Preperation Open macOS Disk Utility Create a new case-insentive container After creating the new container Steam Install Steam brew cask install steam Move Application Support Directory # Create directory mkdir -p /Volumes/Case-Insensitive/Application\ Support/Steam # Copy existing files to new directory test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; cp -pR ~/Library/Application\ Support/Steam /Volumes/Case-Insensitive/Application\ Support/Steam # Delete existing files test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; rm -rf ~/Library/Application\ Support/Steam Symlink Steam Application Support Directory ln -s /Volumes/Case-Insensitive/Application\ Support/Steam ~/Library/Application\ Support/Steam</description><content type="html"><![CDATA[
 
 <h1 id="preperation">Preperation</h1>
 
@@ -51,17 +32,7 @@ mkdir -p /Volumes/Case-Insensitive/Application<span class="se">\ </span>Support/
 <ol>
 <li>Symlink Steam Application Support Directory</li>
 </ol>
-<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">ln -s /Volumes/Case-Insensitive/Application<span class="se">\ </span>Support/Steam ~/Library/Application<span class="se">\ </span>Support/Steam</code></pre></div>]]></content>
-		</item>
-		
-		<item>
-			<title>MacBook Setup dotfiles</title>
-			<link>https://marcel.beck.im/posts/macbook-setup-dotfiles/</link>
-			<pubDate>Thu, 03 Jan 2019 21:50:55 +0100</pubDate>
-			
-			<guid>https://marcel.beck.im/posts/macbook-setup-dotfiles/</guid>
-			<description> Setup dotfiles Requirements  Fresh macOS Mojave  Install dotfiles repository curl --silent https://raw.githubusercontent.com/nexeck/dotfiles/master/install.sh | sh Reboot </description>
-			<content type="html"><![CDATA[
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">ln -s /Volumes/Case-Insensitive/Application<span class="se">\ </span>Support/Steam ~/Library/Application<span class="se">\ </span>Support/Steam</code></pre></div>]]></content></item><item><title>MacBook Setup dotfiles</title><link>https://marcel.beck.im/posts/macbook-setup-dotfiles/</link><pubDate>Thu, 03 Jan 2019 21:50:55 +0100</pubDate><guid>https://marcel.beck.im/posts/macbook-setup-dotfiles/</guid><description> Setup dotfiles Requirements Fresh macOS Mojave Install dotfiles repository curl --silent https://raw.githubusercontent.com/nexeck/dotfiles/master/install.sh | sh Reboot</description><content type="html"><![CDATA[
 
 <h1 id="setup-dotfiles">Setup dotfiles</h1>
 
@@ -74,20 +45,10 @@ mkdir -p /Volumes/Case-Insensitive/Application<span class="se">\ </span>Support/
 <h2 id="install-dotfiles-repository">Install dotfiles repository</h2>
 <div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">curl --silent https://raw.githubusercontent.com/nexeck/dotfiles/master/install.sh <span class="p">|</span> sh</code></pre></div>
 <h2 id="reboot">Reboot</h2>
-]]></content>
-		</item>
-		
-		<item>
-			<title>MacBook Fresh Installation</title>
-			<link>https://marcel.beck.im/posts/macbook-fresh-installation/</link>
-			<pubDate>Sun, 23 Dec 2018 02:16:18 +0100</pubDate>
-			
-			<guid>https://marcel.beck.im/posts/macbook-fresh-installation/</guid>
-			<description>Fresh Install macOS Mojave Requirements  USB Device at least 8GB macOS Installer
+]]></content></item><item><title>MacBook Fresh Installation</title><link>https://marcel.beck.im/posts/macbook-fresh-installation/</link><pubDate>Sun, 23 Dec 2018 02:16:18 +0100</pubDate><guid>https://marcel.beck.im/posts/macbook-fresh-installation/</guid><description>Fresh Install macOS Mojave Requirements USB Device at least 8GB macOS Installer
 Download macOS Installer https://itunes.apple.com/de/app/macos-mojave/id1398502828?l=en&amp;amp;mt=12
 Prepare USB Device Detect USB Device $ diskutil list Format USB Device $ diskutil eraseDisk HFS+ &amp;#39;macosinstaller&amp;#39; disk&amp;lt;number&amp;gt; Create Installation Media $ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/macosinstaller Boot Into Installer Turn on MacBook with USB drive plugged in
- As soon as you press the power button, hold down the left &amp;ldquo;Option Key&amp;rdquo; until you see the boot selection screen</description>
-			<content type="html"><![CDATA[
+As soon as you press the power button, hold down the left &amp;ldquo;Option Key&amp;rdquo; until you see the boot selection screen</description><content type="html"><![CDATA[
 
 <h1 id="fresh-install-macos-mojave">Fresh Install macOS Mojave</h1>
 
@@ -122,21 +83,11 @@ Prepare USB Device Detect USB Device $ diskutil list Format USB Device $ diskuti
 
 <li><p>Click &ldquo;Install macOS&rdquo; and follow the on-screen instructions</p></li>
 </ul>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Bash: [: =: unary operator expected</title>
-			<link>https://marcel.beck.im/posts/bash-unary-operator-expected/</link>
-			<pubDate>Thu, 28 Feb 2013 10:32:00 +0100</pubDate>
-			
-			<guid>https://marcel.beck.im/posts/bash-unary-operator-expected/</guid>
-			<description>[: =: unary operator expected
+]]></content></item><item><title>Bash: [: =: unary operator expected</title><link>https://marcel.beck.im/posts/bash-unary-operator-expected/</link><pubDate>Thu, 28 Feb 2013 10:32:00 +0100</pubDate><guid>https://marcel.beck.im/posts/bash-unary-operator-expected/</guid><description>[: =: unary operator expected
 Use:
 if [ &amp;#34;$aug1&amp;#34; = &amp;#34;and&amp;#34; ]; because otherwise, if $aug1 is undefined or empty, it vanishes from the scene of the crime, leaving only
 if [ = &amp;#34;and&amp;#34; ]; which is not valid.
-With the modern [[, you don&amp;rsquo;t need to worry about that. It has lots of other nice features, too.</description>
-			<content type="html"><![CDATA[<p><code>[: =: unary operator expected</code></p>
+With the modern [[, you don&amp;rsquo;t need to worry about that. It has lots of other nice features, too.</description><content type="html"><![CDATA[<p><code>[: =: unary operator expected</code></p>
 
 <p>Use:</p>
 <div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh"><span class="k">if</span> <span class="o">[</span> <span class="s2">&#34;</span><span class="nv">$aug1</span><span class="s2">&#34;</span> <span class="o">=</span> <span class="s2">&#34;and&#34;</span> <span class="o">]</span><span class="p">;</span></code></pre></div>
@@ -145,89 +96,25 @@ With the modern [[, you don&amp;rsquo;t need to worry about that. It has lots of
 <p>which is not valid.</p>
 
 <p>With the modern <code>[[</code>, you don&rsquo;t need to worry about that. It has lots of other nice features, too.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Bash: Change EOL</title>
-			<link>https://marcel.beck.im/posts/bash-change-eol/</link>
-			<pubDate>Thu, 07 Feb 2013 19:34:00 +0100</pubDate>
-			
-			<guid>https://marcel.beck.im/posts/bash-change-eol/</guid>
-			<description>sed &amp;#39;s/\r//&amp;#39; filename &amp;gt; filename.tmp &amp;amp;&amp;amp; mv filename.tmp filename</description>
-			<content type="html"><![CDATA[<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">sed <span class="s1">&#39;s/\r//&#39;</span> filename &gt; filename.tmp <span class="o">&amp;&amp;</span> mv filename.tmp filename</code></pre></div>]]></content>
-		</item>
-		
-		<item>
-			<title>Bash: For each directory</title>
-			<link>https://marcel.beck.im/posts/bash-for-earch-directory/</link>
-			<pubDate>Sun, 16 Dec 2012 13:14:00 +0100</pubDate>
-			
-			<guid>https://marcel.beck.im/posts/bash-for-earch-directory/</guid>
-			<description>for dir in `find . -type d` do echo $dir done</description>
-			<content type="html"><![CDATA[<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh"><span class="k">for</span> dir in <span class="sb">`</span>find . -type d<span class="sb">`</span>
+]]></content></item><item><title>Bash: Change EOL</title><link>https://marcel.beck.im/posts/bash-change-eol/</link><pubDate>Thu, 07 Feb 2013 19:34:00 +0100</pubDate><guid>https://marcel.beck.im/posts/bash-change-eol/</guid><description>sed &amp;#39;s/\r//&amp;#39; filename &amp;gt; filename.tmp &amp;amp;&amp;amp; mv filename.tmp filename</description><content type="html"><![CDATA[<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">sed <span class="s1">&#39;s/\r//&#39;</span> filename &gt; filename.tmp <span class="o">&amp;&amp;</span> mv filename.tmp filename</code></pre></div>]]></content></item><item><title>Bash: For each directory</title><link>https://marcel.beck.im/posts/bash-for-earch-directory/</link><pubDate>Sun, 16 Dec 2012 13:14:00 +0100</pubDate><guid>https://marcel.beck.im/posts/bash-for-earch-directory/</guid><description>for dir in `find . -type d` do echo $dir done</description><content type="html"><![CDATA[<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh"><span class="k">for</span> dir in <span class="sb">`</span>find . -type d<span class="sb">`</span>
 <span class="k">do</span>
     <span class="nb">echo</span> <span class="nv">$dir</span>
-<span class="k">done</span></code></pre></div>]]></content>
-		</item>
-		
-		<item>
-			<title>Bash: Loop through directories and sub-directoires</title>
-			<link>https://marcel.beck.im/posts/bash-loop-through-directories-and-sub-directoires/</link>
-			<pubDate>Mon, 28 May 2012 10:30:00 +0100</pubDate>
-			
-			<guid>https://marcel.beck.im/posts/bash-loop-through-directories-and-sub-directoires/</guid>
-			<description>#!/bin/bash export IFS=$&amp;#39;\n&amp;#39; for i in $(find $1 -type f) do echo &amp;#34;$i&amp;#34; done</description>
-			<content type="html"><![CDATA[<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh"><span class="cp">#!/bin/bash
+<span class="k">done</span></code></pre></div>]]></content></item><item><title>Bash: Loop through directories and sub-directoires</title><link>https://marcel.beck.im/posts/bash-loop-through-directories-and-sub-directoires/</link><pubDate>Mon, 28 May 2012 10:30:00 +0100</pubDate><guid>https://marcel.beck.im/posts/bash-loop-through-directories-and-sub-directoires/</guid><description>#!/bin/bash export IFS=$&amp;#39;\n&amp;#39; for i in $(find $1 -type f) do echo &amp;#34;$i&amp;#34; done</description><content type="html"><![CDATA[<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh"><span class="cp">#!/bin/bash
 </span><span class="cp"></span><span class="nb">export</span> <span class="nv">IFS</span><span class="o">=</span><span class="s1">$&#39;\n&#39;</span>
 
 <span class="k">for</span> i in <span class="k">$(</span>find <span class="nv">$1</span> -type f<span class="k">)</span>
 <span class="k">do</span>
     <span class="nb">echo</span> <span class="s2">&#34;</span><span class="nv">$i</span><span class="s2">&#34;</span>
-<span class="k">done</span></code></pre></div>]]></content>
-		</item>
-		
-		<item>
-			<title>Bash: Delete all but the most recent X files</title>
-			<link>https://marcel.beck.im/posts/bash-delete-all-but-the-most-recent-x-files/</link>
-			<pubDate>Sat, 26 May 2012 18:31:00 +0100</pubDate>
-			
-			<guid>https://marcel.beck.im/posts/bash-delete-all-but-the-most-recent-x-files/</guid>
-			<description>This example keeps the last 5 files.
-(ls -t|head -n 5;ls)|sort|uniq -u|xargs rm -rf</description>
-			<content type="html"><![CDATA[<p>This example keeps the last 5 files.</p>
-<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh"><span class="o">(</span>ls -t<span class="p">|</span>head -n <span class="m">5</span><span class="p">;</span>ls<span class="o">)</span><span class="p">|</span>sort<span class="p">|</span>uniq -u<span class="p">|</span>xargs rm -rf</code></pre></div>]]></content>
-		</item>
-		
-		<item>
-			<title>Bash: Kill a process ala grep</title>
-			<link>https://marcel.beck.im/posts/bash-kill-a-process-ala-grep/</link>
-			<pubDate>Fri, 11 Nov 2011 13:03:00 +0100</pubDate>
-			
-			<guid>https://marcel.beck.im/posts/bash-kill-a-process-ala-grep/</guid>
-			<description>You can list all PID&amp;rsquo;s which match &amp;ldquo;search string.*&amp;ldquo;.
+<span class="k">done</span></code></pre></div>]]></content></item><item><title>Bash: Delete all but the most recent X files</title><link>https://marcel.beck.im/posts/bash-delete-all-but-the-most-recent-x-files/</link><pubDate>Sat, 26 May 2012 18:31:00 +0100</pubDate><guid>https://marcel.beck.im/posts/bash-delete-all-but-the-most-recent-x-files/</guid><description>This example keeps the last 5 files.
+(ls -t|head -n 5;ls)|sort|uniq -u|xargs rm -rf</description><content type="html"><![CDATA[<p>This example keeps the last 5 files.</p>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh"><span class="o">(</span>ls -t<span class="p">|</span>head -n <span class="m">5</span><span class="p">;</span>ls<span class="o">)</span><span class="p">|</span>sort<span class="p">|</span>uniq -u<span class="p">|</span>xargs rm -rf</code></pre></div>]]></content></item><item><title>Bash: Kill a process ala grep</title><link>https://marcel.beck.im/posts/bash-kill-a-process-ala-grep/</link><pubDate>Fri, 11 Nov 2011 13:03:00 +0100</pubDate><guid>https://marcel.beck.im/posts/bash-kill-a-process-ala-grep/</guid><description>You can list all PID&amp;rsquo;s which match &amp;ldquo;search string.*&amp;ldquo;.
 pgrep -f &amp;#34;such string.*&amp;#34; It is possible to kill those results directly.
-pkill -f &amp;#34;such string.</description>
-			<content type="html"><![CDATA[<p>You can list all PID&rsquo;s which match &ldquo;search string.*&ldquo;.</p>
+pkill -f &amp;#34;such string.</description><content type="html"><![CDATA[<p>You can list all PID&rsquo;s which match &ldquo;search string.*&ldquo;.</p>
 <div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">pgrep -f <span class="s2">&#34;such string.*&#34;</span></code></pre></div>
 <p>It is possible to kill those results directly.</p>
-<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">pkill -f <span class="s2">&#34;such string.*&#34;</span></code></pre></div>]]></content>
-		</item>
-		
-		<item>
-			<title>Bash: mkdir skip existing directories</title>
-			<link>https://marcel.beck.im/posts/bash-mkdir-skip-existing-directories/</link>
-			<pubDate>Fri, 16 Sep 2011 11:18:00 +0100</pubDate>
-			
-			<guid>https://marcel.beck.im/posts/bash-mkdir-skip-existing-directories/</guid>
-			<description>This prevents the error, which occurs when the directory already exists.
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">pkill -f <span class="s2">&#34;such string.*&#34;</span></code></pre></div>]]></content></item><item><title>Bash: mkdir skip existing directories</title><link>https://marcel.beck.im/posts/bash-mkdir-skip-existing-directories/</link><pubDate>Fri, 16 Sep 2011 11:18:00 +0100</pubDate><guid>https://marcel.beck.im/posts/bash-mkdir-skip-existing-directories/</guid><description>This prevents the error, which occurs when the directory already exists.
 The -p parameter creates directory structues as well.
-mkdir -p directory/sub_directory/sub_sub_directory</description>
-			<content type="html"><![CDATA[<p>This prevents the error, which occurs when the directory already exists.</p>
+mkdir -p directory/sub_directory/sub_sub_directory</description><content type="html"><![CDATA[<p>This prevents the error, which occurs when the directory already exists.</p>
 
 <p>The <code>-p</code> parameter creates directory structues as well.</p>
-<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">mkdir -p directory/sub_directory/sub_sub_directory</code></pre></div>]]></content>
-		</item>
-		
-	</channel>
-</rss>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">mkdir -p directory/sub_directory/sub_sub_directory</code></pre></div>]]></content></item></channel></rss>

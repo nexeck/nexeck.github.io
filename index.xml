@@ -1,118 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Marcel Beck</title>
-    <link>https://marcel.beck.im/</link>
-    <description>Recent content on Marcel Beck</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 16 Mar 2019 17:15:04 +0100</lastBuildDate>
-    
-	<atom:link href="https://marcel.beck.im/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Steam on Case-Sesitiv Filesystem with MacOS</title>
-      <link>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</link>
-      <pubDate>Sat, 16 Mar 2019 17:15:04 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</guid>
-      <description> Preperation Open macOS Disk Utility Create a new case-insentive container After creating the new container Steam  Install Steam  brew cask install steam  Move Application Support Directory  # Create directory mkdir -p /Volumes/Case-Insensitive/Application\ Support/Steam # Copy existing files to new directory test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; cp -pR ~/Library/Application\ Support/Steam /Volumes/Case-Insensitive/Application\ Support/Steam # Delete existing files test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; rm -rf ~/Library/Application\ Support/Steam  Symlink Steam Application Support Directory  ln -s /Volumes/Case-Insensitive/Application\ Support/Steam ~/Library/Application\ Support/Steam</description>
-    </item>
-    
-    <item>
-      <title>MacBook Setup dotfiles</title>
-      <link>https://marcel.beck.im/posts/macbook-setup-dotfiles/</link>
-      <pubDate>Thu, 03 Jan 2019 21:50:55 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/macbook-setup-dotfiles/</guid>
-      <description> Setup dotfiles Requirements  Fresh macOS Mojave  Install dotfiles repository curl --silent https://raw.githubusercontent.com/nexeck/dotfiles/master/install.sh | sh Reboot </description>
-    </item>
-    
-    <item>
-      <title>MacBook Fresh Installation</title>
-      <link>https://marcel.beck.im/posts/macbook-fresh-installation/</link>
-      <pubDate>Sun, 23 Dec 2018 02:16:18 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/macbook-fresh-installation/</guid>
-      <description>Fresh Install macOS Mojave Requirements  USB Device at least 8GB macOS Installer
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Marcel Beck</title><link>https://marcel.beck.im/</link><description>Recent content on Marcel Beck</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 16 Mar 2019 17:15:04 +0100</lastBuildDate><atom:link href="https://marcel.beck.im/index.xml" rel="self" type="application/rss+xml"/><item><title>Steam on Case-Sesitiv Filesystem with MacOS</title><link>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</link><pubDate>Sat, 16 Mar 2019 17:15:04 +0100</pubDate><guid>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</guid><description> Preperation Open macOS Disk Utility Create a new case-insentive container After creating the new container Steam Install Steam brew cask install steam Move Application Support Directory # Create directory mkdir -p /Volumes/Case-Insensitive/Application\ Support/Steam # Copy existing files to new directory test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; cp -pR ~/Library/Application\ Support/Steam /Volumes/Case-Insensitive/Application\ Support/Steam # Delete existing files test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; rm -rf ~/Library/Application\ Support/Steam Symlink Steam Application Support Directory ln -s /Volumes/Case-Insensitive/Application\ Support/Steam ~/Library/Application\ Support/Steam</description></item><item><title>MacBook Setup dotfiles</title><link>https://marcel.beck.im/posts/macbook-setup-dotfiles/</link><pubDate>Thu, 03 Jan 2019 21:50:55 +0100</pubDate><guid>https://marcel.beck.im/posts/macbook-setup-dotfiles/</guid><description> Setup dotfiles Requirements Fresh macOS Mojave Install dotfiles repository curl --silent https://raw.githubusercontent.com/nexeck/dotfiles/master/install.sh | sh Reboot</description></item><item><title>MacBook Fresh Installation</title><link>https://marcel.beck.im/posts/macbook-fresh-installation/</link><pubDate>Sun, 23 Dec 2018 02:16:18 +0100</pubDate><guid>https://marcel.beck.im/posts/macbook-fresh-installation/</guid><description>Fresh Install macOS Mojave Requirements USB Device at least 8GB macOS Installer
 Download macOS Installer https://itunes.apple.com/de/app/macos-mojave/id1398502828?l=en&amp;amp;mt=12
 Prepare USB Device Detect USB Device $ diskutil list Format USB Device $ diskutil eraseDisk HFS+ &amp;#39;macosinstaller&amp;#39; disk&amp;lt;number&amp;gt; Create Installation Media $ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/macosinstaller Boot Into Installer Turn on MacBook with USB drive plugged in
- As soon as you press the power button, hold down the left &amp;ldquo;Option Key&amp;rdquo; until you see the boot selection screen</description>
-    </item>
-    
-    <item>
-      <title>Bash: [: =: unary operator expected</title>
-      <link>https://marcel.beck.im/posts/bash-unary-operator-expected/</link>
-      <pubDate>Thu, 28 Feb 2013 10:32:00 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/bash-unary-operator-expected/</guid>
-      <description>[: =: unary operator expected
+As soon as you press the power button, hold down the left &amp;ldquo;Option Key&amp;rdquo; until you see the boot selection screen</description></item><item><title>Bash: [: =: unary operator expected</title><link>https://marcel.beck.im/posts/bash-unary-operator-expected/</link><pubDate>Thu, 28 Feb 2013 10:32:00 +0100</pubDate><guid>https://marcel.beck.im/posts/bash-unary-operator-expected/</guid><description>[: =: unary operator expected
 Use:
 if [ &amp;#34;$aug1&amp;#34; = &amp;#34;and&amp;#34; ]; because otherwise, if $aug1 is undefined or empty, it vanishes from the scene of the crime, leaving only
 if [ = &amp;#34;and&amp;#34; ]; which is not valid.
-With the modern [[, you don&amp;rsquo;t need to worry about that. It has lots of other nice features, too.</description>
-    </item>
-    
-    <item>
-      <title>Bash: Change EOL</title>
-      <link>https://marcel.beck.im/posts/bash-change-eol/</link>
-      <pubDate>Thu, 07 Feb 2013 19:34:00 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/bash-change-eol/</guid>
-      <description>sed &amp;#39;s/\r//&amp;#39; filename &amp;gt; filename.tmp &amp;amp;&amp;amp; mv filename.tmp filename</description>
-    </item>
-    
-    <item>
-      <title>Bash: For each directory</title>
-      <link>https://marcel.beck.im/posts/bash-for-earch-directory/</link>
-      <pubDate>Sun, 16 Dec 2012 13:14:00 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/bash-for-earch-directory/</guid>
-      <description>for dir in `find . -type d` do echo $dir done</description>
-    </item>
-    
-    <item>
-      <title>Bash: Loop through directories and sub-directoires</title>
-      <link>https://marcel.beck.im/posts/bash-loop-through-directories-and-sub-directoires/</link>
-      <pubDate>Mon, 28 May 2012 10:30:00 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/bash-loop-through-directories-and-sub-directoires/</guid>
-      <description>#!/bin/bash export IFS=$&amp;#39;\n&amp;#39; for i in $(find $1 -type f) do echo &amp;#34;$i&amp;#34; done</description>
-    </item>
-    
-    <item>
-      <title>Bash: Delete all but the most recent X files</title>
-      <link>https://marcel.beck.im/posts/bash-delete-all-but-the-most-recent-x-files/</link>
-      <pubDate>Sat, 26 May 2012 18:31:00 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/bash-delete-all-but-the-most-recent-x-files/</guid>
-      <description>This example keeps the last 5 files.
-(ls -t|head -n 5;ls)|sort|uniq -u|xargs rm -rf</description>
-    </item>
-    
-    <item>
-      <title>Bash: Kill a process ala grep</title>
-      <link>https://marcel.beck.im/posts/bash-kill-a-process-ala-grep/</link>
-      <pubDate>Fri, 11 Nov 2011 13:03:00 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/bash-kill-a-process-ala-grep/</guid>
-      <description>You can list all PID&amp;rsquo;s which match &amp;ldquo;search string.*&amp;ldquo;.
+With the modern [[, you don&amp;rsquo;t need to worry about that. It has lots of other nice features, too.</description></item><item><title>Bash: Change EOL</title><link>https://marcel.beck.im/posts/bash-change-eol/</link><pubDate>Thu, 07 Feb 2013 19:34:00 +0100</pubDate><guid>https://marcel.beck.im/posts/bash-change-eol/</guid><description>sed &amp;#39;s/\r//&amp;#39; filename &amp;gt; filename.tmp &amp;amp;&amp;amp; mv filename.tmp filename</description></item><item><title>Bash: For each directory</title><link>https://marcel.beck.im/posts/bash-for-earch-directory/</link><pubDate>Sun, 16 Dec 2012 13:14:00 +0100</pubDate><guid>https://marcel.beck.im/posts/bash-for-earch-directory/</guid><description>for dir in `find . -type d` do echo $dir done</description></item><item><title>Bash: Loop through directories and sub-directoires</title><link>https://marcel.beck.im/posts/bash-loop-through-directories-and-sub-directoires/</link><pubDate>Mon, 28 May 2012 10:30:00 +0100</pubDate><guid>https://marcel.beck.im/posts/bash-loop-through-directories-and-sub-directoires/</guid><description>#!/bin/bash export IFS=$&amp;#39;\n&amp;#39; for i in $(find $1 -type f) do echo &amp;#34;$i&amp;#34; done</description></item><item><title>Bash: Delete all but the most recent X files</title><link>https://marcel.beck.im/posts/bash-delete-all-but-the-most-recent-x-files/</link><pubDate>Sat, 26 May 2012 18:31:00 +0100</pubDate><guid>https://marcel.beck.im/posts/bash-delete-all-but-the-most-recent-x-files/</guid><description>This example keeps the last 5 files.
+(ls -t|head -n 5;ls)|sort|uniq -u|xargs rm -rf</description></item><item><title>Bash: Kill a process ala grep</title><link>https://marcel.beck.im/posts/bash-kill-a-process-ala-grep/</link><pubDate>Fri, 11 Nov 2011 13:03:00 +0100</pubDate><guid>https://marcel.beck.im/posts/bash-kill-a-process-ala-grep/</guid><description>You can list all PID&amp;rsquo;s which match &amp;ldquo;search string.*&amp;ldquo;.
 pgrep -f &amp;#34;such string.*&amp;#34; It is possible to kill those results directly.
-pkill -f &amp;#34;such string.</description>
-    </item>
-    
-    <item>
-      <title>Bash: mkdir skip existing directories</title>
-      <link>https://marcel.beck.im/posts/bash-mkdir-skip-existing-directories/</link>
-      <pubDate>Fri, 16 Sep 2011 11:18:00 +0100</pubDate>
-      
-      <guid>https://marcel.beck.im/posts/bash-mkdir-skip-existing-directories/</guid>
-      <description>This prevents the error, which occurs when the directory already exists.
+pkill -f &amp;#34;such string.</description></item><item><title>Bash: mkdir skip existing directories</title><link>https://marcel.beck.im/posts/bash-mkdir-skip-existing-directories/</link><pubDate>Fri, 16 Sep 2011 11:18:00 +0100</pubDate><guid>https://marcel.beck.im/posts/bash-mkdir-skip-existing-directories/</guid><description>This prevents the error, which occurs when the directory already exists.
 The -p parameter creates directory structues as well.
-mkdir -p directory/sub_directory/sub_sub_directory</description>
-    </item>
-    
-  </channel>
-</rss>
+mkdir -p directory/sub_directory/sub_sub_directory</description></item></channel></rss>
