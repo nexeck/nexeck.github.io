@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Marcel Beck</title><link>https://marcel.beck.im/posts/</link><description>Recent content in Posts on Marcel Beck</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 16 Mar 2019 17:15:04 +0100</lastBuildDate><atom:link href="https://marcel.beck.im/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Steam on Case-Sesitiv Filesystem with MacOS</title><link>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</link><pubDate>Sat, 16 Mar 2019 17:15:04 +0100</pubDate><guid>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</guid><description> Preperation Open macOS Disk Utility Create a new case-insentive container After creating the new container Steam Install Steam brew cask install steam Move Application Support Directory # Create directory mkdir -p /Volumes/Case-Insensitive/Application\ Support/Steam # Copy existing files to new directory test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; cp -pR ~/Library/Application\ Support/Steam /Volumes/Case-Insensitive/Application\ Support/Steam # Delete existing files test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; rm -rf ~/Library/Application\ Support/Steam Symlink Steam Application Support Directory ln -s /Volumes/Case-Insensitive/Application\ Support/Steam ~/Library/Application\ Support/Steam</description><content type="html"><![CDATA[
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Marcel Beck</title><link>https://marcel.beck.im/posts/</link><description>Recent content in Posts on Marcel Beck</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 16 Mar 2019 17:55:34 +0100</lastBuildDate><atom:link href="https://marcel.beck.im/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Git Separate Work &amp; Personal Config</title><link>https://marcel.beck.im/posts/git-separate-work-personal-config/</link><pubDate>Sat, 16 Mar 2019 17:55:34 +0100</pubDate><guid>https://marcel.beck.im/posts/git-separate-work-personal-config/</guid><description>With Git it is possible to separate your personal config from your work config.
+.gitconfig [includeIf &amp;#34;gitdir:~/dev/personal/&amp;#34;] path = ~/.gitconfig.personal [includeIf &amp;#34;gitdir:~/dev/work/&amp;#34;] path = ~/.gitconfig.work .gitconfig.personal [user] name = Marcel Beck email = marcel@beck.im signingKey = 0x983D12649C40C7EC .gitconfig.work [user] name = Marcel Beck email = &amp;lt;company email&amp;gt; signingKey = &amp;lt;company signing key&amp;gt; Or if you want to include different work configs, you could also add another includeIf in .gitconfig.work</description><content type="html"><![CDATA[
+
+<p>With Git it is possible to separate your personal config from your work config.</p>
+
+<h1 id="gitconfig">.gitconfig</h1>
+<div class="highlight"><pre class="chroma"><code class="language-ini" data-lang="ini"><span class="k">[includeIf &#34;gitdir:~/dev/personal/&#34;]</span>
+  <span class="na">path</span> <span class="o">=</span> <span class="s">~/.gitconfig.personal</span>
+
+<span class="k">[includeIf &#34;gitdir:~/dev/work/&#34;]</span>
+  <span class="na">path</span> <span class="o">=</span> <span class="s">~/.gitconfig.work</span></code></pre></div>
+<h2 id="gitconfig-personal">.gitconfig.personal</h2>
+<div class="highlight"><pre class="chroma"><code class="language-ini" data-lang="ini"><span class="k">[user]</span>
+  <span class="na">name</span> <span class="o">=</span> <span class="s">Marcel Beck
+</span><span class="s">  email = marcel@beck.im
+</span><span class="s">  signingKey = 0x983D12649C40C7EC</span></code></pre></div>
+<h2 id="gitconfig-work">.gitconfig.work</h2>
+<div class="highlight"><pre class="chroma"><code class="language-ini" data-lang="ini"><span class="k">[user]</span>
+  <span class="na">name</span> <span class="o">=</span> <span class="s">Marcel Beck
+</span><span class="s">  email = &lt;company email&gt;
+</span><span class="s">  signingKey = &lt;company signing key&gt;</span></code></pre></div>
+<p>Or if you want to include different work configs, you could also add another <code>includeIf</code> in .gitconfig.work</p>
+<div class="highlight"><pre class="chroma"><code class="language-ini" data-lang="ini"><span class="k">[includeIf &#34;gitdir:~/dev/work/&lt;company&gt;/&#34;]</span>
+  <span class="na">path</span> <span class="o">=</span> <span class="s">~/.gitconfig.work.&lt;company&gt;</span></code></pre></div>
+<h2 id="gitconfig-work-company">.gitconfig.work.<code>&lt;company&gt;</code></h2>
+<div class="highlight"><pre class="chroma"><code class="language-ini" data-lang="ini"><span class="k">[user]</span>
+  <span class="na">name</span> <span class="o">=</span> <span class="s">Marcel Beck
+</span><span class="s">  email = &lt;company email&gt;
+</span><span class="s">  signingKey = &lt;company signing key&gt;</span></code></pre></div>]]></content></item><item><title>Steam on Case-Sesitiv Filesystem with MacOS</title><link>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</link><pubDate>Sat, 16 Mar 2019 17:15:04 +0100</pubDate><guid>https://marcel.beck.im/posts/macbook-steam-case-sensitiv-filesystem/</guid><description> Preperation Open macOS Disk Utility Create a new case-insentive container After creating the new container Steam Install Steam brew cask install steam Move Application Support Directory # Create directory mkdir -p /Volumes/Case-Insensitive/Application\ Support/Steam # Copy existing files to new directory test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; cp -pR ~/Library/Application\ Support/Steam /Volumes/Case-Insensitive/Application\ Support/Steam # Delete existing files test -d ~/Library/Application\ Support/Steam &amp;amp;&amp;amp; rm -rf ~/Library/Application\ Support/Steam Symlink Steam Application Support Directory ln -s /Volumes/Case-Insensitive/Application\ Support/Steam ~/Library/Application\ Support/Steam</description><content type="html"><![CDATA[
 
 <h1 id="preperation">Preperation</h1>
 
@@ -112,9 +140,4 @@ pgrep -f &amp;#34;such string.*&amp;#34; It is possible to kill those results di
 pkill -f &amp;#34;such string.</description><content type="html"><![CDATA[<p>You can list all PID&rsquo;s which match &ldquo;search string.*&ldquo;.</p>
 <div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">pgrep -f <span class="s2">&#34;such string.*&#34;</span></code></pre></div>
 <p>It is possible to kill those results directly.</p>
-<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">pkill -f <span class="s2">&#34;such string.*&#34;</span></code></pre></div>]]></content></item><item><title>Bash: mkdir skip existing directories</title><link>https://marcel.beck.im/posts/bash-mkdir-skip-existing-directories/</link><pubDate>Fri, 16 Sep 2011 11:18:00 +0100</pubDate><guid>https://marcel.beck.im/posts/bash-mkdir-skip-existing-directories/</guid><description>This prevents the error, which occurs when the directory already exists.
-The -p parameter creates directory structues as well.
-mkdir -p directory/sub_directory/sub_sub_directory</description><content type="html"><![CDATA[<p>This prevents the error, which occurs when the directory already exists.</p>
-
-<p>The <code>-p</code> parameter creates directory structues as well.</p>
-<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">mkdir -p directory/sub_directory/sub_sub_directory</code></pre></div>]]></content></item></channel></rss>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">pkill -f <span class="s2">&#34;such string.*&#34;</span></code></pre></div>]]></content></item></channel></rss>
